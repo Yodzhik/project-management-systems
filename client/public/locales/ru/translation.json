@@ -1,0 +1,68 @@
+{
+  "header": {
+    "allIssues": "Все задачи",
+    "boards": "Проекты",
+    "createIssue": "Создать задачу",
+    "logoAlt": "Логотип"
+  },
+  "task": {
+    "header": {
+      "create": "Создание",
+      "update": "Редактирование",
+      "task": "задачи"
+    },
+    "body": {
+      "title": "Название",
+      "description": "Описание",
+      "project": "Проект",
+      "priority": {
+        "title": "Приоритет",
+        "high": "Высокий",
+        "medium": "Средний",
+        "low": "Низкий"
+      },
+      "status": {
+        "title": "Статус",
+        "toDo": "Бэклог",
+        "inProgress": "В работе",
+        "done": "Готово"
+      },
+      "goToBoard": "Перейти к доске",
+      "updateButton": "Обновить",
+      "createButton": "Создать",
+      "assignee": "Исполнитель"
+    },
+    "toast": {
+      "created": "Задача успешно создана",
+      "updated": "Задача успешно обновлена"
+    }
+  },
+  "boards": {
+    "goToBoard": "Перейти к доске"
+  },
+  "board": {
+    "status": {
+      "Backlog": "Бэклог",
+      "InProgress": "В работе",
+      "Done": "Готово"
+    },
+    "priority": "Приоритет"
+  },
+  "issues": {
+    "search": "Поиск",
+    "filter": "Фильтры",
+    "createIssue": "Создать задачу",
+    "searchTitleOrAssignee": "Поиск по названию или исполнителю",
+    "allStatuses": "Все статусы",
+    "allBoards": "Все доски",
+    "noMatches": "Нет задач, соответствующих фильтрам"
+  },
+  "errors": {
+    "boardsError": "Не удалось загрузить проекты",
+    "issuesError": "Не удалось загрузить задачи",
+    "boardError": "Не удалось загрузить доску",
+    "statusError": "Не удалось сменить статус",
+    "editTaskError": "Не удалось обновить задачу",
+    "createTaskError": "Не удалось создать задачу"
+  }
+} 

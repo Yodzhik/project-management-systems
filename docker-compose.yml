@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: project_management_server
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:5173"
+    container_name: project_management_client
+    volumes:
+
+      - ./client:/app
+
+      - /app/node_modules
+    depends_on:
+      - server

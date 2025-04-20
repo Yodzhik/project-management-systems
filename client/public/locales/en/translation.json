@@ -1,0 +1,68 @@
+{
+  "header": {
+    "allIssues": "All Issues",
+    "boards": "Projects",
+    "createIssue": "Create Issue",
+    "logoAlt": "Logo"
+  },
+  "task": {
+    "header": {
+      "create": "Create",
+      "update": "Edit",
+      "task": "Task"
+    },
+    "body": {
+      "title": "Title",
+      "description": "Description",
+      "project": "Project",
+      "priority": {
+        "title": "Priority",
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "status": {
+        "title": "Status",
+        "toDo": "Backlog",
+        "inProgress": "In Progress",
+        "done": "Done"
+      },
+      "goToBoard": "Go to board",
+      "updateButton": "Update",
+      "createButton": "Create",
+      "assignee": "Assignee"
+    },
+    "toast": {
+      "created": "Task created successfully",
+      "updated": "Task updated successfully"
+    }
+  },
+  "boards": {
+    "goToBoard": "Go to board"
+  },
+  "board": {
+    "status": {
+      "Backlog": "Backlog",
+      "InProgress": "In Progress",
+      "Done": "Done"
+    },
+    "priority": "Priority"
+  },
+  "issues": {
+    "search": "Search",
+    "filter": "Filters",
+    "createIssue": "Create Issue",
+    "searchTitleOrAssignee": "Search by title or assignee",
+    "allStatuses": "All statuses",
+    "allBoards": "All boards",
+    "noMatches": "No issues match the filters"
+  },
+  "errors": {
+    "boardsError": "Failed to load projects",
+    "issuesError": "Failed to load issues",
+    "boardError": "Failed to load board",
+    "statusError": "Failed to change status",
+    "editTaskError": "Failed to update task",
+    "createTaskError": "Failed to create task"
+  }
+}
